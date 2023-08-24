@@ -43,7 +43,7 @@ int main() {
 		else if (i < 1000)
 			system("./hitkey 0");
 		bzero(command, 23);
-		strcpy(command, "~/Documents/hitkey ");
+		strcpy(command, "./hitkey ");
 		sprintf(str, "%d", i);
 		strcat(command, str);
 		system(command);
