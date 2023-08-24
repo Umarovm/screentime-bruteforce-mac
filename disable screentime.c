@@ -37,11 +37,11 @@ int main() {
 			}
 		}
 		if (i < 10)
-			system("~/Documents/hitkey 000");
+			system("./hitkey 000");
 		else if (i < 100)
-			system("~/Documents/hitkey 000");
+			system("./hitkey 000");
 		else if (i < 1000)
-			system("~/Documents/hitkey 0");
+			system("./hitkey 0");
 		bzero(command, 23);
 		strcpy(command, "~/Documents/hitkey ");
 		sprintf(str, "%d", i);
